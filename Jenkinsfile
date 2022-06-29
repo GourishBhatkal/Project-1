@@ -9,6 +9,7 @@ pipeline {
         }
         stage ('Hello-2') {
             steps {
+                echo "Hi"
                 eho "Hello World"
             }
         }
